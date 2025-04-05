@@ -1,0 +1,5 @@
+1. First You need to require a server for sending a mail with attached image. In our case we have hostinger server. And you need to create a send-email.php file on your server for example we have create a send-email.php on my root domain - https://sypnosistechnologies.com/send-email.php
+
+2. After all this you need to add custom form on Shopify section. For this I have create and attached the custom-form.liquid file. 
+
+This code for only attached the file.  
