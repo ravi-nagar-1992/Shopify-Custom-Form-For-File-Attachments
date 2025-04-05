@@ -16,12 +16,14 @@
     {{ section.settings.heading }}
   </div>
 <div class="page-width">
-  <form id="custom-upload-form" enctype="multipart/form-data">
-  <input type="text" name="name" required>
-  <input type="email" name="email" required>
+   <form id="custom-upload-form" enctype="multipart/form-data">
+  <input type="text" name="name" placeholder="Your name" required>
+  <input type="email" name="email" placeholder="Your email" required>
+  <input type="text" name="address" placeholder="Your address" required>
   <input type="file" name="file" accept="image/*" required>
   <button type="submit">Submit</button>
 </form>
+
 
 <div id="form-status"></div>
 
